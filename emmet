@@ -1,0 +1,8 @@
+// first task
+ul[type="square"]>(li>lorem1)*4
+
+// second task
+ol[start="3" reversed="reversed"]>(li>lorem2)*4
+    
+// third task
+table>(thead>tr>(th>lorem1)*3)+tbody>(tr>(td>i>lorem2)*3)*3
