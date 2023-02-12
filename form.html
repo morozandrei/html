@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            tr {
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="get" action="" enctype="application/x-www-form-urlencoded">
+            <table border="1">
+                <tr>
+                    <th colspan="2" style="text-align: center">Tell a little about yourself</th> 
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" placeholder="John"></td>
+                </tr>
+                <tr>
+                    <td>Surname</td>
+                    <td><input type="text" placeholder="Doe"></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="text" placeholder="45"></td>
+                </tr>
+                <tr>
+                    <td>Birth Date</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <label for="male">Male</label>
+                        <input name="male" type="radio">
+                        <label for="female">Female</label>
+                        <input name="female" type="radio">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Favorite Seasons</td>
+                    <td>
+                        <label for="winter">Winter</label>
+                        <input type="checkbox" name="winter">
+                        <label for="spring">Spring</label>
+                        <input type="checkbox" name="spring">
+                        <label for="summer">Summer</label>
+                        <input type="checkbox" name="summer">
+                        <label for="autumn">Autumn</label>
+                        <input type="checkbox" name="autumn">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Favorite Color</td>
+                    <td>
+                        <input type="color" name="color" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Most Productive Period Of The Day</td>
+                    <td>
+                        <label for="min-range">From</label>
+                        <input type="range" name="min-range" id="">
+                        <label for="max-range">To</label>
+                        <input type="range" name="max-range" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Favorite Bands</td>
+                    <td>
+                        <select multiple size="3">
+                            <option value="">--Select Few--</option>
+                            <option value="band-name-1">Band Name 1</option>
+                            <option value="band-name-2">Band Name 2</option>
+                            <option value="band-name-3">Band Name 3</option>
+                            <option value="band-name-4">Band Name 4</option>
+                            <option value="band-name-5">Band Name 5</option>
+                            <option value="band-name-6">Band Name 6</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Your Mail</td>
+                    <td><input type="email" required></td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td><input type="tel" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Your GitHub URL</td>
+                    <td><input type="url"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"; style="text-align: center">
+                        <button type="submit">Save</button>
+                        <button type="reset">Discard</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>    
